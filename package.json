@@ -1,0 +1,43 @@
+{
+  "name": "content-owners",
+  "version": "0.5.0",
+  "description": "A Simple Strapi plugin to manage content owners",
+  "strapi": {
+    "name": "content-owners",
+    "description": "A Simple Strapi plugin to manage content owners",
+    "kind": "plugin",
+    "displayName": "Strapi Content Owners"
+  },
+  "dependencies": {
+    "@strapi/design-system": "^1.6.3",
+    "@strapi/helper-plugin": "^4.6.0",
+    "@strapi/icons": "^1.6.3",
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.6"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.6"
+  },
+  "author": {
+    "name": "Vagelis Papaioannou",
+	"email": "hello@vagelis.dev",
+	"url": "https://github.com/vagelisp"
+  },
+  "repository": {
+	"type": "git",
+	"url": "https://github.com/vagelisp/Strapi-Content-Owners"
+  },	
+  "engines": {
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
