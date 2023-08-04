@@ -1,10 +1,10 @@
 {
   "name": "content-owners",
   "version": "0.5.0",
-  "description": "A Simple Strapi plugin to manage content owners",
+  "description": "A plugin to add an 'Author' field to Strapi",
   "strapi": {
     "name": "content-owners",
-    "description": "A Simple Strapi plugin to manage content owners",
+    "description": "A plugin to add an 'Author' field to Strapi",
     "kind": "plugin",
     "displayName": "Strapi Content Owners"
   },

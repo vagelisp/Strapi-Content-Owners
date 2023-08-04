@@ -1,19 +1,19 @@
-'use strict';
+"use strict";
 
 module.exports = ({ strapi }) => {
   // bootstrap phase
-	const conditions = [
+  const conditions = [
     {
-      displayName: "Is Owed By User",
-      name: "owned-by-user",
+      displayName: "is one of the Owners",
+      name: "is-an-owner",
       plugin: "Owner Based Access Control",
       handler: (user) => {
         return {
-          owners: { $elemMatch: { id: user.id } },
+          admin_users: { $elemMatch: { id: user.id } },
         };
       },
     },
   ];
-	
-	strapi.admin.services.permission.conditionProvider.registerMany(conditions);
+
+  strapi.admin.services.permission.conditionProvider.registerMany(conditions);
 };
